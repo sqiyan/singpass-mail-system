@@ -1,0 +1,24 @@
+.Modal{
+
+    &__overlay {
+        height: 100vh;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.15);
+        z-index: 200;
+    }
+
+    &__box {
+        display: flex;
+        width: 533px;
+        height: 356px;
+        padding: 12px 288px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 59px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+}

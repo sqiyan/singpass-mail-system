@@ -1,0 +1,112 @@
+.Login {
+
+    color: #151515;
+
+    &__messageContainer {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__messageHeader {
+        margin-top: 60px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        // &__body {
+        //     @extend .Login__messageHeader;
+        //     text-align: left;
+        // }
+    }
+
+    &__importantInfo {
+        color: #F4333D;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    &__instruction {
+        text-align: left;
+        margin: 60px;
+        margin-left: 60px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__secondaryInstruction {
+        text-align: left;
+        font-size: 20px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__instructionContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-right: 100px;
+    }
+
+    &__buttonContainer {
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 90px;
+    }
+
+    &__optionButton {
+        display: flex;
+        width: 400px;
+        height: 350px;
+        padding: 12px 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border-radius: 16px;
+        border-color: #F5F5F5;
+        background: #F5F5F5;
+        box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.1);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__actionButton {
+        margin-top: 20px;
+        height: 60px;
+        padding: 12px 120px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        border-color: #F5F5F5;
+        background: #F5F5F5;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__consentText {
+        width: 100%;
+        text-align: justify;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

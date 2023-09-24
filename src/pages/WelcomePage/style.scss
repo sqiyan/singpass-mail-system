@@ -1,0 +1,43 @@
+.WelcomePage {
+
+    background: #203E96;
+    height: 100vh;
+
+    &__title {
+        color: #FFF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__button {
+        display: inline-flex;
+        height: 80px;
+        padding: 12px 200px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        border-color: white;
+        background: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__bottomline {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+}
